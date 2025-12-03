@@ -48,22 +48,22 @@ However, leakage-induced phase error and ripple remain challenges.
 
 A more advanced architecture employs a **fully differential charge pump**, designed to:
 
-### ✔ Cancel leakage-induced phase error
+###  Cancel leakage-induced phase error
 Leakage affects both differential outputs equally → differential subtraction removes it.
 
-### ✔ Improve current matching
+###  Improve current matching
 Using fully symmetrical pull-up and pull-down paths.
 
-### ✔ Achieve wider output voltage swing
+###  Achieve wider output voltage swing
 Suitable for low-voltage and high-frequency designs.
 
-### ✔ Reduce glitches and switching noise
+###  Reduce glitches and switching noise
 Through source-side switching and precharge circuitry.
 
-### ✔ Stabilize the output voltage
+###  Stabilize the output voltage
 Using a **reference-voltage follower** plus a protection network to prevent back-injection.
 
-### ✔ Produce stable output without spurious jumps
+###  Produce stable output without spurious jumps
 Critical for high-speed PLL acquisition and locking.
 
 This architecture meets the needs of high-speed communication systems where even small VCO voltage fluctuations can severely affect output frequency.
